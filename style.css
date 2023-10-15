@@ -7,8 +7,6 @@
   --font-three: "Poiret One", sans-serif;
 }
 body {
-  margin: 60px auto;
-  max-width: 800px;
 }
 
 .navbar-brand {
@@ -105,6 +103,10 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.project-desciption {
+  padding: 120px 60px;
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -134,4 +136,24 @@ p {
 .button-link {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
