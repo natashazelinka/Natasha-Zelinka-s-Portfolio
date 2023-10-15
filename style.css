@@ -11,6 +11,22 @@ body {
   max-width: 800px;
 }
 
+.navbar-brand {
+  font-family: var(--font-three);
+}
+
+.nav-link {
+  font-family: var(--font-three);
+}
+
+.hero-homepage {
+  background: #f5f2fe;
+  padding: 160px;
+}
+.hero-homepage p {
+  line-height: 0.5;
+}
+
 h1,
 h2,
 h3 {
