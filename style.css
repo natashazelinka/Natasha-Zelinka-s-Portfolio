@@ -164,6 +164,10 @@ p {
     text-align: center;
     padding: 0;
   }
+  footer .contact-box {
+    padding: 30px;
+  }
+
 }
 
 .about-section h1 {
@@ -216,4 +220,49 @@ nav a:hover,
 nav li.active a {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer .social-links {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+h4 {
+  font-size: 48px;
+}
+
+footer .contact-paragraph {
+  margin: 0;
 }
