@@ -167,7 +167,6 @@ p {
   footer .contact-box {
     padding: 30px;
   }
-
 }
 
 .about-section h1 {
@@ -234,18 +233,18 @@ footer .email-link:hover {
   text-decoration: none;
 }
 
-footer .social-links {
+footer .social-links a {
   margin: 0 20px;
   color: var(--primary-color);
   background: var(--secondary-color);
   padding: 10px 14px;
+  border-radius: 50%;
   font-size: 18px;
-  border-radius: 50px;
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: var(--secondary-color);
+  color: white;
   background: var(--primary-color);
 }
 
