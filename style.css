@@ -7,14 +7,6 @@
   --font-three: "Yeseva One", serif;
 }
 
-.navbar-brand {
-  font-family: var(--font-three);
-}
-
-.nav-link {
-  font-family: var(--font-two);
-}
-
 .hero-homepage {
   background: #f5f2fe;
   padding: 160px;
@@ -192,4 +184,36 @@ p {
 
 .about-img {
   width: 400px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+  text-decoration: none;
 }
