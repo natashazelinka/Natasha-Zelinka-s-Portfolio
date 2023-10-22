@@ -103,11 +103,19 @@ p {
   color: var(--third-color);
 }
 
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+.btn.contact-link {
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 20px 5px;
+  text-decoration: none;
+  text-transform: capitalize;
   font-family: var(--font-one);
+  color: var(--third-color);
+  display: block;
+}
+
+.btn.contact-link:hover {
+  color: var(--fourth-color);
 }
 
 .about-link {
@@ -202,6 +210,13 @@ p {
   }
 }
 
+.img-fluid {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
@@ -218,8 +233,8 @@ p {
   margin: 30px;
 }
 
-.about-img {
-  width: 400px;
+img .about-img {
+  width: 30px;
 }
 
 .logo {
@@ -292,8 +307,10 @@ footer .contact-box {
   background: var(--third-color);
   padding: 30px 100px;
   border-radius: 10px;
-  color: var(--primary-color);
-  margin: 30px;
+  color: var(--secondary-color);
+  margin: 40px;
+  font-family: var(--font-three);
+  font-size: large;
 }
 
 h4 {
@@ -303,4 +320,23 @@ h4 {
 
 footer .contact-paragraph {
   margin: 0;
+  font-family: var(--font-two);
+  color: var(--primary-color);
+}
+
+.carousel .carousel-item {
+  height: 300px;
+  width: 120px;
+}
+
+.carousel-item img {
+  position: flex;
+  min-height: 300px;
+}
+
+#contact {
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--third-color);
+  font-family: var(--font-three);
 }
