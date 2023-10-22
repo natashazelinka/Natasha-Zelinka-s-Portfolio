@@ -9,7 +9,7 @@
 
 .hero-homepage {
   background: #f5f2fe;
-  padding: 160px;
+  padding: 80px;
 }
 .hero-homepage p {
   line-height: 0.5;
@@ -178,7 +178,7 @@ p {
   font-family: var(--font-two);
 }
 .about-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .about-section-content {
