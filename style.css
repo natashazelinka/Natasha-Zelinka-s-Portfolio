@@ -1,14 +1,16 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #fff6f6;
+  --secondary-color: white;
+  --third-color: #d05252;
+  --fourth-color: #781f1f;
+  --box-shadow: 0 5px 10px rgba(120, 31, 31);
   --font-one: "Josefin Sans", sans-serif;
   --font-two: "Josefin Sans", sans-serif;
   --font-three: "Yeseva One", serif;
 }
 
 .hero-homepage {
-  background: #f5f2fe;
+  background: var(--primary-color);
   padding: 80px;
 }
 .hero-homepage p {
@@ -31,22 +33,26 @@ h1 {
   font-size: 80px;
   font-weight: bolder;
   line-break: strict;
+  color: var(--third-color);
 }
 
 .hero-homepage h2 {
   font-size: 30px;
   font-family: var(--font-two);
+  color: var(--third-color);
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
   font-family: var(--font-two);
+  color: var(--third-color);
 }
 
 .mb-5 strong {
   font-family: var(--font-three);
   opacity: none;
+  color: var(--third-color);
 }
 
 .img {
@@ -65,10 +71,11 @@ strong {
   line-height: 1.5;
   font-family: var(--font-two);
   margin: 20px 0 0;
+  color: var(--fourth-color);
 }
 
 p {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -76,12 +83,14 @@ p {
   text-align: center;
   margin: 20px;
   font-family: var(--font-one);
+  color: var(--third-color);
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  color: var(--third-color);
 }
 
 .navigation-links a {
@@ -91,6 +100,7 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   font-family: var(--font-one);
+  color: var(--third-color);
 }
 
 .contact-link {
@@ -101,16 +111,32 @@ p {
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-family: var(--font-one);
 }
 
 .project-desciption {
   padding: 120px 60px;
 }
 
+.btn {
+  background: var(--fourth-color);
+  box-shadow: var(--box-shadow);
+  color: var(--fourth-color);
+  font-family: var(--font-one);
+}
+
+.btn:hover {
+  text-decoration: none;
+  inherits: color;
+  color: #fff6f6;
+  background: #781f1f;
+}
+
 .homepage-link {
-  color: var(--primary-color);
+  color: var(--third-color);
   text-align: center;
   display: block;
 }
@@ -119,6 +145,7 @@ p {
   display: flex;
   margin: 30px 0;
   font-size: 14px;
+  color: var(--third-color);
 }
 
 .about-paragraphs p {
@@ -140,6 +167,12 @@ p {
 .button-link {
   text-decoration: none;
   color: inherit;
+  color: var(--fourth-color);
+}
+
+.button-link:hover {
+  text-decoration: none;
+  color: var(--first-color);
 }
 
 @media (max-width: 900px) {
@@ -207,36 +240,39 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  color: var(--third-color);
 }
 
 nav a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--third-color);
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--primary-color);
+  color: var(--fourth-color);
   text-decoration: none;
 }
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--fourth-color);
   font-size: 24px;
   text-align: center;
+  font-family: var(--font-two);
 }
 
 footer .email-link:hover {
-  color: var(--primary-color);
+  color: var(--fourth-color);
   text-decoration: none;
+  cursor: pointer;
 }
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--primary-color);
-  background: var(--secondary-color);
+  color: var(--fourth-color);
+  background: var(--primary-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -244,8 +280,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
-  background: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--fourth-color);
 }
 
 footer {
@@ -253,13 +289,16 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--primary-color);
-  padding: 30px 120px;
+  background: var(--third-color);
+  padding: 30px 100px;
   border-radius: 10px;
+  color: var(--primary-color);
+  margin: 30px;
 }
 
 h4 {
   font-size: 48px;
+  font-size: var(--font-three);
 }
 
 footer .contact-paragraph {
