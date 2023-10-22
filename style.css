@@ -100,20 +100,32 @@ p {
 }
 
 .btn.contact-link {
-  margin: 0 auto;
+  margin: 20px;
   border-radius: 4px;
-  padding: 20px 5px;
+  padding: 10px 0 10px 0;
   text-decoration: none;
   text-transform: capitalize;
   font-family: var(--font-one);
   color: var(--third-color);
-  display: block;
+  display: inline;
 }
 
 .btn.contact-link:hover {
   color: var(--fourth-color);
 }
 
+.projects-link {
+  text-align: center;
+  color: var(--fourth-color);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.projects-link:hover {
+  cursor: pointer;
+  color: var(--fourth-color);
+  text-decoration: none;
+}
 .about-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -123,6 +135,13 @@ p {
 
 .project-desciption {
   padding: 120px 60px;
+}
+
+button {
+  background: var(--fourth-color);
+  box-shadow: var(--box-shadow);
+  color: var(--fourth-color);
+  font-family: var(--font-one);
 }
 
 .btn {
@@ -232,6 +251,12 @@ p {
   color: var(--third-color);
 }
 
+.about-content-section h2 {
+  color: var(--third-color);
+  font-family: var(--font-two);
+  font-size: 25px;
+}
+
 .about-section-content {
   margin: 30px;
 }
@@ -317,9 +342,9 @@ footer .contact-box {
   font-size: large;
 }
 
-h4 {
-  font-size: 48px;
-  font-size: var(--font-three);
+.contact-box h4 {
+font-size: 45px;
+  font-family: var(--font-three);
 }
 
 footer .contact-paragraph {
@@ -336,5 +361,5 @@ footer .contact-paragraph {
 }
 
 .carousel-item {
-  max-width: 700px;
+  max-width: 600px;
 }
