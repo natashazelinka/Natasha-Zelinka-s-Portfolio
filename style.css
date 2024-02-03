@@ -88,6 +88,10 @@ p {
   color: var(--third-color);
 }
 
+.frontParagraph {
+  line-height: 2;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
