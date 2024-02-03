@@ -14,7 +14,7 @@
   padding: 80px;
 }
 .hero-homepage p {
-  line-height: 0.5;
+  line-height: normal;
 }
 
 .hero-image {
@@ -86,10 +86,6 @@ p {
   margin: 20px;
   font-family: var(--font-one);
   color: var(--third-color);
-}
-
-.frontParagraph {
-  line-height: 2;
 }
 
 .navigation-links {
