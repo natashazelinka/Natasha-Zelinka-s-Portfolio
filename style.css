@@ -4,8 +4,8 @@
   --third-color: #d05252;
   --fourth-color: #781f1f;
   --box-shadow: 0 5px 10px rgba(120, 31, 31);
-  --font-one: 
-  --font-two: 
+  --font-one: "Public Sans", sans-serif;
+  --font-two: "Public Sans", sans-serif;
   --font-three: "Yeseva One", serif;
 }
 
@@ -70,7 +70,7 @@ strong {
   line-height: 1.5;
   font-family: var(--font-two);
   margin: 20px 0 0;
-  color: var(--primary-color);
+  color: var(--fourth-color);
 }
 
 p {
