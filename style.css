@@ -389,3 +389,9 @@ footer .btn {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.devIcons {
+  color: #781f1f;
+  font-size: 30px;
+  text-align: center;
+}
