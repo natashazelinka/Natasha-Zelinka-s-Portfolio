@@ -387,6 +387,10 @@ footer .btn {
   text-transform: capitalize;
 }
 
+.text-muted {
+  color: #781f1f;
+}
+
 .devIcons {
   color: #781f1f;
   font-size: 50px;
