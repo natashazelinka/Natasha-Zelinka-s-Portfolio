@@ -13,9 +13,6 @@
   background: var(--primary-color);
   padding: 80px;
 }
-.hero-homepage p {
-  line-height: normal;
-}
 
 .hero-image {
   width: 600px;
